@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connectionString = process.env.MONGODB_URI || 'mongodb://localhost:27017/gamelib';
+const connectionString = process.env.MONGODB_URI || 'mongodb+srv://cluster0.hi2qy.mongodb.net/myFirstDatabase?authSource=%24external&authMechanism=MONGODB-X509&retryWrites=true&w=majority';
 
 const configOptions = {
   useNewUrlParser: true,
@@ -14,5 +14,6 @@ mongoose.connect(connectionString, configOptions)
   .catch((err) => console.log(`MongoDB connection error: ${err}`));
 
 module.exports = {
-  User: require('./User')
+  User: require('./User'),
+  Crypto: require('./Crypto')
 };
