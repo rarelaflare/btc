@@ -1,0 +1,34 @@
+{
+    "crypto": [
+        {
+            "name": "BITCOIN",
+            "abbreviation": "BTC",
+            "link": "bitcoin.org",
+            "type": "Coin"
+        },
+        {
+            "name": "ETHEREUM",
+            "abbreviation": "ETH",
+            "link": "ethereum.org",
+            "type": "Coin"
+        },      
+        {
+            "name": "SOLANA",
+            "abbreviation": "SOL",
+            "link": "ethereum.org",
+            "type": "Network"
+        },     
+        {
+            "name": "POLKADOT",
+            "abbreviation": "DOT",
+            "link": "polkadot.network",
+            "type": "Network"
+        },    
+         {
+            "name": "STELLAR",
+            "abbreviation": "XLM",
+            "link": "www.stellar.org",
+            "type": "Network"
+        }
+    ]
+}
